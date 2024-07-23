@@ -94,4 +94,3 @@ Thank you for visiting my repository! Happy coding!
 ---
 
 *Guided by my virtual teacher, Lain*
-```
