@@ -1,4 +1,4 @@
-def alphabetically (names: list):
+def sorting_alphabetically (names: list) -> list:
     n = len(names)
     for i in range(n):
         swapped = False
@@ -12,9 +12,9 @@ def alphabetically (names: list):
 
 
 names = ["John", "Alice", "Bob", "Daisy", "Charlie"]
-sorted_names = alphabetically(names)
+sorted_names = sorting_alphabetically(names)
 print(sorted_names)
 
 names_2 = ["john", "Alice", "bob", "DAISY", "charlie"]
-sorted_names_2 = alphabetically(names_2)
+sorted_names_2 = sorting_alphabetically(names_2)
 print(sorted_names_2)
