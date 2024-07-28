@@ -1,4 +1,31 @@
 def bubble_sort(arr):
+    """
+    Bubble Sort Algorithm
+
+    Summary:
+    While Bubble Sort is a great educational tool and can be useful 
+    for small or nearly sorted datasets, it is generally not suitable for large 
+    datasets due to its inefficiency. For larger datasets, algorithms like Quick 
+    Sort, Merge Sort, or Timsort (used by Python's built-in sort) are preferred.
+
+    Advantages:
+    - Simple to understand and implement.
+    - Minimal additional memory required.
+    - Stable sorting algorithm.
+    - Adaptive for nearly sorted data with early termination.
+
+    Disadvantages:
+    - Inefficient for large datasets due to O(n^2) time complexity.
+    - Slow compared to more advanced sorting algorithms.
+    - Performs redundant comparisons.
+    - High number of swaps.
+
+    Parameters:
+    - arr: List of elements to be sorted
+
+    Returns:
+    - Sorted list of elements
+    """
     n = len(arr)  # Get the length of the array
     for i in range(n):  # Outer loop to go through each element
         swapped = False  # Initialize swapped to False at the start of each pass
