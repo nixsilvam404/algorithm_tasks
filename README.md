@@ -35,6 +35,7 @@ Here is a list of the algorithms and data structures covered in this repository:
 
 ### Sorting Algorithms
 - Bubble Sort
+- Selection Sort
 
 ### LeetCode Problems
 - Two Sum
